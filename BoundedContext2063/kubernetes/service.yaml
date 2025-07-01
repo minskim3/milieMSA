@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: BoundedContext2063
+  labels:
+    app: BoundedContext2063
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: BoundedContext2063
